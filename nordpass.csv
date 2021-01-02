@@ -1,0 +1,4 @@
+name,url,username,password,note,cardholdername,cardnumber,cvc,expirydate,zipcode,folder,full_name,phone_number,email,address1,address2,city,country,state
+OK,,,,,,,,,,,,,,,,,,
+Account in folder,http://localhost/,123,123,,,,,,,OK,,,,,,,,
+Account in root,http://localhost2/,1234,1234,,,,,,,,,,,,,,,
