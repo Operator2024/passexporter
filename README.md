@@ -37,3 +37,6 @@ Pic. 3 correct NordPass data structure (Output file after script execution)
 ![Pic not found](src/NordPass.png "Output file after script execution")
 
 After first string is followed by the group name (folder name), then data of accounts.
+## License
+
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
