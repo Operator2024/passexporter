@@ -21,7 +21,7 @@ def webprocessing(a: Dict, b: List, c: Text, d: Text = "") -> Tuple[Dict, Text]:
         else:
             for i in b:
                 for j in i:
-                    if a.get(f"{j.get('ID')}") is None:
+                    if a.get(f"{j.get('ID')}") is None and j.get('ID') == d:
                         a[f"{j.get('ID')}"] = {"Name": j.get("Name")}
                         return a, j.get("ID")
     elif c == "account" and d != "":
